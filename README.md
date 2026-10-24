@@ -1,4 +1,5 @@
 # Exploració i creació Rose chart, PAC2 Visualització de Dades. Rosa dels vents.
+
 Exercici corresponent a la PAC2 de l'assignatura de Visualització de Dades del Màster en Ciència de Dades de la UOC
 
 Tècnica de visualització a explorar: Rose chart.
@@ -71,9 +72,18 @@ Els gràfics es generen amb Plotly i s'escriuen en format HTML. La funció
 `wind_rose` permet indicar el nom de l'estació i el nom del fitxer de sortida;
 `parse_dia` converteix el text de les observacions en una taula de dades.
 
-## Exemple visualitzacions generades.
-En aquest repositori hi consten 3 fitxers .html corresponents a les roses dels vents
-generades amb plotly.
+## Exemple visualitzacions generades
+
+Els gràfics HTML són interactius: fes clic en un enllaç per obrir la visualització
+corresponent al navegador.
+
+- [Rosa dels vents del 26 de març de 2026](./rosa_vents_2026-03-26.html)
+- [Rosa dels vents del 27 de març de 2026](./rosa_vents_2026-03-27.html)
+- [Rosa dels vents del 28 de març de 2026](./rosa_vents_2026-03-28.html)
+
+GitHub no mostra el contingut dels fitxers HTML interactius dins del README; els
+enllaços permeten obrir o descarregar cada visualització. Per carregar els gràfics
+cal connexió a Internet, ja que Plotly es carrega des del CDN.
 
 ## Llicència
 
@@ -81,3 +91,4 @@ Aquest projecte es distribueix sota els termes de la **GNU General Public
 License, versió 3, de 29 de juny de 2007 (GPL-3.0)**. El text complet de la
 llicència es pot consultar a
 [gnu.org/licenses/gpl-3.0.html](https://www.gnu.org/licenses/gpl-3.0.html).
+
