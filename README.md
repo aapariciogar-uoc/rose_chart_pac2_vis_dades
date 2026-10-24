@@ -74,16 +74,15 @@ Els gràfics es generen amb Plotly i s'escriuen en format HTML. La funció
 
 ## Exemple visualitzacions generades
 
-Els gràfics HTML són interactius: fes clic en un enllaç per obrir la visualització
-corresponent al navegador.
+Les imatges següents són una previsualització estàtica de cada gràfic. Fes clic
+en una imatge per obrir la visualització HTML interactiva corresponent.
 
-- [Rosa dels vents del 26 de març de 2026](./rosa_vents_2026-03-26.html)
-- [Rosa dels vents del 27 de març de 2026](./rosa_vents_2026-03-27.html)
-- [Rosa dels vents del 28 de març de 2026](./rosa_vents_2026-03-28.html)
+| 26 de març de 2026 | 27 de març de 2026 | 28 de març de 2026 |
+| --- | --- | --- |
+| <a href="./rosa_vents_2026-03-26.html"><img src="./rosa_vents_2026-03-26.png" width="250" alt="Rosa dels vents del 26 de març de 2026"></a> | <a href="./rosa_vents_2026-03-27.html"><img src="./rosa_vents_2026-03-27.png" width="250" alt="Rosa dels vents del 27 de març de 2026"></a> | <a href="./rosa_vents_2026-03-28.html"><img src="./rosa_vents_2026-03-28.png" width="250" alt="Rosa dels vents del 28 de març de 2026"></a> |
 
-GitHub no mostra el contingut dels fitxers HTML interactius dins del README; els
-enllaços permeten obrir o descarregar cada visualització. Per carregar els gràfics
-cal connexió a Internet, ja que Plotly es carrega des del CDN.
+Per carregar les visualitzacions interactives cal connexió a Internet, ja que
+Plotly es carrega des del CDN.
 
 ## Llicència
 
