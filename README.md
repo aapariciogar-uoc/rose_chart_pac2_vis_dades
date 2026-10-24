@@ -71,6 +71,10 @@ Els gràfics es generen amb Plotly i s'escriuen en format HTML. La funció
 `wind_rose` permet indicar el nom de l'estació i el nom del fitxer de sortida;
 `parse_dia` converteix el text de les observacions en una taula de dades.
 
+## Exemple visualitzacions generades.
+En aquest repositori hi consten 3 fitxers .html corresponents a les roses dels vents
+generades amb plotly.
+
 ## Llicència
 
 Aquest projecte es distribueix sota els termes de la **GNU General Public
